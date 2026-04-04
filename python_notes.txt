@@ -1,4 +1,10 @@
+PYTHON  NOTES EXPLAIN FOLLOWS AS BELOW
+----------------------------------------------
+----------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+
 Topic 1: Variables store data. Python is dynamically typed.
+
 Topic 2: Lists are ordered and mutable.
 Topic 3: Dictionaries store key-value pairs.
 Topic 4: Loops automate repetitive tasks.
