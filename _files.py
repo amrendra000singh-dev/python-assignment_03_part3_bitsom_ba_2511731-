@@ -38,7 +38,7 @@ def task_1():
         student = clean_student_profile(raw_student)
         cleaned_students.append(student)
         validity = "✓ Valid name" if is_valid_name(student["name"]) else "✗ Invalid name"
-        print("================================")
+        
         print(f"Student : {student['name']}")
         print(f"Roll No : {student['roll']}")
         print(f"Marks   : {student['marks']}")
@@ -116,7 +116,7 @@ def task_3():
 
     print("Task 3 — Class Performance Summary")
     print("Name              | Average | Status")
-    print("----------------------------------------")
+
 
     pass_count = 0
     fail_count = 0
@@ -192,9 +192,7 @@ def task_5():
     print("Lines appended.")
 
     with open(notes_path, "r", encoding="utf-8") as notes_file:
-        lines = [line.rstrip("\n") for line in notes_file]
-
-    print("\nFile contents:")
+         print("\nFile contents:")
     for index, line in enumerate(lines, start=1):
         print(f"{index}. {line}")
 
