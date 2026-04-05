@@ -42,7 +42,7 @@ def task_1():
         print(f"Student : {student['name']}")
         print(f"Roll No : {student['roll']}")
         print(f"Marks   : {student['marks']}")
-        print("================================")
+        
         print(validity)
         print()
 
